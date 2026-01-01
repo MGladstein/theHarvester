@@ -1,0 +1,42 @@
+MIT License
+
+Copyright (c) 2026 Cosmic Sandbox Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ASSET LICENSING:
+
+All bundled graphical assets (textures, skyboxes, planetary maps) are sourced
+from public-domain repositories:
+
+- NASA imagery: Public Domain (U.S. Government Work)
+- ESA imagery: Public Domain or ESA/Hubble Creative Commons (verified per asset)
+- JWST imagery: Public Domain (NASA/ESA/CSA)
+
+See assets/ATTRIBUTION.md for detailed source information and licensing for
+each asset.
+
+Users adding custom assets must comply with the sourcing requirements outlined
+in assets/ATTRIBUTION.md and must only use public-domain or permissive-licensed
+materials from approved sources (NASA, ESA, Hubble, JWST, etc.).
+
+IMPORTANT: This software license (MIT) applies to the code only. Assets have
+separate licenses as documented in assets/ATTRIBUTION.md.

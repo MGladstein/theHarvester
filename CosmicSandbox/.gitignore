@@ -1,0 +1,128 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish folders
+publish/
+*.Publish.xml
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin
+$RECYCLE.BIN/
+
+# Mac files
+.DS_Store
+
+# Application-specific
+*.csp.backup
+logs/
+crash_reports/
+
+# Large asset files (users should download from NASA/ESA directly)
+assets/Raw/*.png
+assets/Raw/*.jpg
+assets/Raw/*.tif
+assets/Raw/*.tiff
+
+# Keep processed assets but ignore very large ones
+assets/Processed/**/*.dds
+assets/Processed/**/*_8k.png
+assets/Processed/**/*_16k.png
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Installer builds
+installer/Output/
+installer/*.exe
+*.msi
+
+# Package files
+*.zip
+*.7z
+*.rar
+
+# Exception: Keep small example assets
+!assets/Scenes/*.json
+!docs/images/*.png

@@ -1,0 +1,54 @@
+{
+  "name": "Binary Star System",
+  "description": "Two stars orbiting their common center of mass",
+  "version": "1.0.0",
+  "currentTime": 0.0,
+  "timeStep": 86400.0,
+  "timeScale": 1.0,
+  "isPaused": true,
+  "gravitationalConstant": 6.6743e-11,
+  "integrator": "VelocityVerlet",
+  "enableCollisions": false,
+  "bodies": [
+    {
+      "name": "Star A (Blue Giant)",
+      "mass": 5.0e30,
+      "radius": 3.48e9,
+      "density": 100.0,
+      "position": { "x": -2.0e11, "y": 0.0, "z": 0.0 },
+      "velocity": { "x": 0.0, "y": -20000.0, "z": 0.0 },
+      "acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+      "rotationPeriod": 864000.0,
+      "type": "Star",
+      "isEmissive": true,
+      "emissiveColor": { "x": 0.7, "y": 0.8, "z": 1.0 },
+      "luminosity": 1.0e28,
+      "temperature": 25000.0,
+      "isActive": true,
+      "isFixed": false
+    },
+    {
+      "name": "Star B (Red Giant)",
+      "mass": 3.0e30,
+      "radius": 2.09e9,
+      "density": 100.0,
+      "position": { "x": 2.0e11, "y": 0.0, "z": 0.0 },
+      "velocity": { "x": 0.0, "y": 33333.0, "z": 0.0 },
+      "acceleration": { "x": 0.0, "y": 0.0, "z": 0.0 },
+      "rotationPeriod": 1728000.0,
+      "type": "Star",
+      "isEmissive": true,
+      "emissiveColor": { "x": 1.0, "y": 0.5, "z": 0.3 },
+      "luminosity": 5.0e27,
+      "temperature": 4000.0,
+      "isActive": true,
+      "isFixed": false
+    }
+  ],
+  "camera": {
+    "position": { "x": 0.0, "y": 5e11, "z": -8e11 },
+    "target": { "x": 0.0, "y": 0.0, "z": 0.0 },
+    "up": { "x": 0.0, "y": 1.0, "z": 0.0 },
+    "fieldOfView": 60.0
+  }
+}
