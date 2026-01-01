@@ -1,0 +1,132 @@
+================================================================================
+                    COSMIC SANDBOX - START HERE!
+================================================================================
+
+Welcome! You're about to build a 3D gravitational physics simulator.
+
+BEFORE YOU BEGIN - REQUIREMENTS:
+  ✓ Windows 11 (won't work on Windows 10, Mac, or Linux)
+  ✓ 5 GB free disk space
+  ✓ Internet connection
+
+================================================================================
+                    SUPER EASY 3-STEP PROCESS
+================================================================================
+
+STEP 1: Install Required Software (ONE TIME ONLY)
+--------------------------------------------------
+
+You need two free programs from Microsoft:
+
+A) .NET 8.0 SDK:
+   → Go to: https://dotnet.microsoft.com/download/dotnet/8.0
+   → Download "Windows x64 Installer" under "Build apps - SDK"
+   → Run the installer
+   → Restart your computer
+
+B) Visual Studio 2022 Community (OPTIONAL - makes building easier):
+   → Go to: https://visualstudio.microsoft.com/downloads/
+   → Download "Community" edition (it's FREE!)
+   → When installing, check these boxes:
+     ✓ .NET desktop development
+     ✓ Desktop development with C++
+   → Wait for install (takes 30-60 minutes)
+   → Restart your computer
+
+
+STEP 2: Build the App
+----------------------
+
+Option A - EASIEST (if you installed Visual Studio):
+  1. Double-click: CosmicSandbox.sln
+  2. Change "Debug" to "Release" at the top
+  3. Click: Build → Build Solution
+  4. Wait 2-5 minutes
+  5. Done!
+
+Option B - SUPER EASY (works even without Visual Studio):
+  1. Double-click: EASY_BUILD.bat
+  2. Wait 2-5 minutes
+  3. Done!
+
+Option C - MANUAL (for advanced users):
+  1. Open PowerShell in this folder
+  2. Run: .\build\build.ps1 -Configuration Release -Publish
+  3. Wait 2-5 minutes
+  4. Done!
+
+
+STEP 3: Run the App!
+---------------------
+
+  1. Go to the "publish" folder
+  2. Double-click: CosmicSandbox.exe
+  3. Click "Solar System" on the left
+  4. Press the Play button (or Space key)
+  5. Enjoy watching planets orbit! 🌍🪐✨
+
+
+================================================================================
+                         QUICK TROUBLESHOOTING
+================================================================================
+
+❌ "Build failed" or "dotnet not found"
+   → You didn't install .NET SDK correctly
+   → Download and install from: https://dotnet.microsoft.com/download/dotnet/8.0
+   → Restart your computer
+   → Try building again
+
+❌ "App won't start" or "DirectX error"
+   → Make sure you have Windows 11 (not Windows 10!)
+   → Update your graphics drivers:
+     • Right-click Start → Device Manager
+     • Display adapters → Right-click your GPU
+     • Update driver → Search automatically
+
+❌ "Black screen" in the app
+   → This is normal! Load a scene first:
+     • Click "Solar System" on the left panel
+     • Press the Play button
+
+
+================================================================================
+                         DETAILED INSTRUCTIONS
+================================================================================
+
+For complete step-by-step instructions with screenshots,
+read: EASY_INSTALL.md
+
+Open it with Notepad or any text editor.
+
+
+================================================================================
+                              HELP & SUPPORT
+================================================================================
+
+Logs (if app crashes):
+  C:\Users\[YourName]\AppData\Local\CosmicSandbox\Logs\
+
+Documentation:
+  • README.md - Full documentation
+  • ARCHITECTURE.md - Technical details
+  • ATTRIBUTION.md - Asset sources
+
+
+================================================================================
+                             HAVE FUN! 🚀
+================================================================================
+
+Once you build it, you can run CosmicSandbox.exe anytime!
+
+Try these presets:
+  • Solar System - See planets orbit the Sun
+  • Binary Stars - Two stars orbiting each other
+  • Three-Body Problem - Chaotic gravitational dance
+
+Controls:
+  • Left-click + drag: Rotate camera
+  • Right-click + drag: Pan camera
+  • Scroll wheel: Zoom
+  • Space: Play/Pause simulation
+
+Enjoy exploring the universe! 🌌
